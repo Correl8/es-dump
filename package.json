@@ -1,0 +1,27 @@
+{
+  "name": "es-dump",
+  "version": "0.1.0",
+  "description": "Dump data from an elasticsearch index into a file",
+  "main": "app.js",
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "nopt": "^3.0.6",
+    "nopt-usage": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Samuel Rinnetmäki",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:correl8/scripts/es-dump.git"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "bugs": {
+    "url": "https://github.com/correl8/scripts/es-dump/issues"
+  }
+}
